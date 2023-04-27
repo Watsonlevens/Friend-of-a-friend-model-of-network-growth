@@ -1,2 +1,2 @@
-# Friend_of_Friend_Model
- Friend of a friend model of network growth
+# Friend_of_Friend_Model of network growth
+ Friend of a friend model of network growth is an algorithm for gerating systems of complex networks. In this model, individuals joining the network choose one node entirely at random and link to it with probability p, then they choose a neighbour of that neighbour (friend of a friend) and follow that individual with probability q. This model can produce power-law degree distributions. It can also produce node clustering reminiscent of small-world networks. But most importantly, for small p and q=1 the model produces super-hub networks, where the number of super-hubs tends to zero as the number of nodes becomes large. 
